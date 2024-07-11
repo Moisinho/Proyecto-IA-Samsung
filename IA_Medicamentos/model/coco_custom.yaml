@@ -1,0 +1,12 @@
+train: /content/Data/images/train  # Ruta a la carpeta de imágenes de entrenamiento
+val: /content/Data/images/vals     # Ruta a la carpeta de imágenes de validación
+
+# Ruta a la carpeta de etiquetas (modifica según corresponda)
+train_labels: /content/extracted_files/labels/train  # Ruta a la carpeta de etiquetas de entrenamiento
+val_labels: /content/extracted_files/labels/val      # Ruta a la carpeta de etiquetas de validación
+
+# Número de clases
+nc: 4
+
+# Nombres de las clases
+names: ['B12', 'Ballena_Azul', 'Tylenol', 'Aleve']
